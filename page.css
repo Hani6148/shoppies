@@ -1,0 +1,46 @@
+.root {
+  background-image: url("./back.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.top {
+  padding: 3vh 0 3vh 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 1000;
+}
+.header {
+  font-family: "Monoton", cursive;
+  color: white;
+  margin: auto;
+
+  width: fit-content;
+}
+h6 {
+  font-family: "Audiowide", cursive;
+  color: white;
+  margin: auto;
+  width: fit-content;
+}
+
+.search-bar {
+  width: 70%;
+  margin: auto;
+  margin-top: 6vh;
+}
+.search-input {
+  opacity: 0.9;
+}
+
+.movie-container {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 2vh;
+}
